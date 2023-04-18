@@ -55,43 +55,28 @@ app.use(function (err, req, res, next) {
 
 async function checkConnectionAndUpdateDatabase() {
   try {
-    await sequelize
-      .authenticate()
-      .then(() => {
-        console.log("Database connection has been established successfully.");
-      })
-      .catch((err) => {
-        console.error("Unable to connect to the database:", err);
-      });
+    await sequelize.authenticate();
+    console.log("Database connection has been established successfully.");
 
-    // updating database
-    sequelize
-      .sync({ force: true }) // Dropping the table each time
-      .then(() => {
-        console.log("Database synchronized");
-      })
-      .then(async () => {
-        const data1 = IndustryData.loadData();
-        await IndustryData.saveData(data1);
-        const data2 = IndustrialWastewater.loadData();
-        await IndustrialWastewater.saveData(data2);
-        const data3 = WastewaterTreatmentPlants.loadData();
-        await WastewaterTreatmentPlants.saveData(data3);
-        const data4 = WaterWithdrawal.loadData();
-        await WaterWithdrawal.saveData(data4);
-        const data5 = TotalSulphurDioxideEmission.loadData();
-        await TotalSulphurDioxideEmission.saveData(data5);
-        const data6 = TotalDustEmission.loadData();
-        await TotalDustEmission.saveData(data6);
-        const data7 = TotalNitrogenOxidesEmission.loadData();
-        await TotalNitrogenOxidesEmission.saveData(data7);
-      })
-      .catch((err) => {
-        console.log("Rolled back, an error occurred:");
-        console.log(err);
-      });
+    await sequelize.sync({ force: true }); // Dropping the table each time
+    console.log("Database synchronized");
+
+    const data1 = IndustryData.loadData();
+    await IndustryData.saveData(data1);
+    const data2 = IndustrialWastewater.loadData();
+    await IndustrialWastewater.saveData(data2);
+    const data3 = WastewaterTreatmentPlants.loadData();
+    await WastewaterTreatmentPlants.saveData(data3);
+    const data4 = WaterWithdrawal.loadData();
+    await WaterWithdrawal.saveData(data4);
+    const data5 = TotalSulphurDioxideEmission.loadData();
+    await TotalSulphurDioxideEmission.saveData(data5);
+    const data6 = TotalDustEmission.loadData();
+    await TotalDustEmission.saveData(data6);
+    const data7 = TotalNitrogenOxidesEmission.loadData();
+    await TotalNitrogenOxidesEmission.saveData(data7);
   } catch (error) {
-    console.error("Connection with database cannot be established:", error);
+    console.error("An error occurred:", error);
   }
 }
 checkConnectionAndUpdateDatabase();
