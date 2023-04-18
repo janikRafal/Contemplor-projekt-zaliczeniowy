@@ -1,0 +1,20 @@
+# Pobierz oficjalny obraz Node.js
+FROM node:16
+
+# Utwórz katalog roboczy w kontenerze
+WORKDIR /app
+
+# Kopiuj plik package.json i package-lock.json do katalogu roboczego
+COPY package*.json ./
+
+# Zainstaluj zależności
+RUN npm install
+
+# Kopiuj wszystkie pliki źródłowe do katalogu roboczego
+COPY . .
+
+# Oznacz port, na którym będzie uruchomiony serwer
+EXPOSE 3000
+
+# Uruchom serwer
+CMD ["npm", "start"]

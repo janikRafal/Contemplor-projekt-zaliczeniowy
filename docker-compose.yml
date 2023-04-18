@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres:15.2
+    restart: always
+    volumes:
+      - contemplor-data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: contemplor-db
+
+  backend:
+    build: ./contemplor_server
+    ports:
+      - 3001:3001
+    depends_on:
+      - postgres
+
+  frontend:
+    build: ./contemplor_client
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+
+volumes:
+  contemplor-data:

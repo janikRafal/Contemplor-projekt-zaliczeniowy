@@ -1,0 +1,74 @@
+[
+  {
+    "2000": 2697,
+    "2005": 2283,
+    "2010": 2036,
+    "2015": 2076,
+    "2020": 2012,
+    "2021": 1968,
+    "specification": "OGÓŁEM"
+  },
+  {
+    "2000": 1238,
+    "2005": 1004,
+    "2010": 891,
+    "2015": 809,
+    "2020": 774,
+    "2021": 765,
+    "specification": "Posiadające oczyszczalnie"
+  },
+  {
+    "2000": 1115,
+    "2005": 910,
+    "2010": 791,
+    "2015": 733,
+    "2020": 711,
+    "2021": 704,
+    "specification": "O wystarczjącej przepustowości"
+  },
+  {
+    "2000": 123,
+    "2005": 94,
+    "2010": 100,
+    "2015": 76,
+    "2020": 63,
+    "2021": 61,
+    "specification": "O niewystarczającej przepustowości"
+  },
+  {
+    "2000": 1459,
+    "2005": 1279,
+    "2010": 1145,
+    "2015": 1267,
+    "2020": 1238,
+    "2021": 1203,
+    "specification": "Bez oczyszczalni ścieków"
+  },
+  {
+    "2000": 261,
+    "2005": 165,
+    "2010": 145,
+    "2015": 149,
+    "2020": 121,
+    "2021": 117,
+    "specification": "Odprowadzające ścieki do wód lub do ziemi"
+  },
+  {
+    "2000": 1198,
+    "2005": 1114,
+    "2010": 1000,
+    "2015": 1118,
+    "2020": 1117,
+    "2021": 1086,
+    "specification": "Odprowadzające ścieki do sieci kanalizacyjnej"
+  },
+  {
+    "2000": 528,
+    "2005": 482,
+    "2010": 439,
+    "2015": 398,
+    "2020": 413,
+    "2021": 404,
+    "specification": "W tym wyposażone w podczyszczalnie ścieków"
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "2000": 11048.5,
+    "2005": 10940.3,
+    "2010": 10866.4,
+    "2015": 10502.6,
+    "2020": 8666.3,
+    "2021": 9267.1,
+    "specification": "OGÓŁEM"
+  },
+  {
+    "2000": 9150.6,
+    "2005": 9205.7,
+    "2010": 9172.6,
+    "2015": 8770.2,
+    "2020": 6900.8,
+    "2021": 7484.7,
+    "specification": "Wody powierzchniowe"
+  },
+  {
+    "2000": 1747.3,
+    "2005": 1640.4,
+    "2010": 1625.2,
+    "2015": 1677.3,
+    "2020": 1720.2,
+    "2021": 1738.3,
+    "specification": "Wody podziemne"
+  },
+  {
+    "2000": 150.6,
+    "2005": 94.2,
+    "2010": 68.6,
+    "2015": 55.2,
+    "2020": 45.3,
+    "2021": 44.1,
+    "specification": "Wody z odwadniania zakładów górniczych oraz obiektów budowlanych (użyte do produkcji)"
+  },
+  {
+    "2000": 7637.9,
+    "2005": 7734.1,
+    "2010": 7650.7,
+    "2015": 7463.3,
+    "2020": 5909.5,
+    "2021": 6334.2,
+    "specification": "Cele produkcyjne (podsumowanie)"
+  },
+  {
+    "2000": 7221.5,
+    "2005": 7420.9,
+    "2010": 7382.3,
+    "2015": 7200.9,
+    "2020": 5654.5,
+    "2021": 6082.5,
+    "specification": "Wody powierzchniowe (dla celów produkcyjnych)"
+  },
+  {
+    "2000": 265.8,
+    "2005": 219.0,
+    "2010": 199.8,
+    "2015": 207.3,
+    "2020": 209.7,
+    "2021": 207.6,
+    "specification": "Wody podziemne (dla celów produkcyjnych)"
+  },
+  {
+    "2000": 150.6,
+    "2005": 94.2,
+    "2010": 68.6,
+    "2015": 55.2,
+    "2020": 45.3,
+    "2021": 44.1,
+    "specification": "Wody z odwadniania zakładów górniczych oraz obiektów budowlanych (dla celów produkcyjnych)"
+  },
+  {
+    "2000": 1060.6,
+    "2005": 1101.0,
+    "2010": 1153.3,
+    "2015": 991.8,
+    "2020": 801.6,
+    "2021": 841.4,
+    "specification": "Nawodnienia w rolnictwie i leśnictwie (podsumowanie)"
+  },
+  {
+    "2000": 1060.6,
+    "2005": 1101.0,
+    "2010": 1153.3,
+    "2015": 990.1,
+    "2020": 801.6,
+    "2021": 841.4,
+    "specification": "Wody powierzchniowe (dla rolnictwa i leśnictwa)"
+  },
+  {
+    "2000": null,
+    "2005": null,
+    "2010": null,
+    "2015": 1.7,
+    "2020": null,
+    "2021": null,
+    "specification": "Wody podziemne (dla rolnictwa i leśnictwa)"
+  },
+
+  {
+    "2000": 2350.1,
+    "2005": 2105.2,
+    "2010": 2062.4,
+    "2015": 2047.4,
+    "2020": 1955.2,
+    "2021": 2091.4,
+    "specification": "Eksploatacja sieci wodociągowej (podsumomwanie)"
+  },
+  {
+    "2000": 868.5,
+    "2005": 683.8,
+    "2010": 637.0,
+    "2015": 579.2,
+    "2020": 444.6,
+    "2021": 560.7,
+    "specification": "Wody powierzchniowe (dla eksploatacji sieci wodociągowej)"
+  },
+  {
+    "2000": 1481.5,
+    "2005": 1421.4,
+    "2010": 1425.4,
+    "2015": 1468.3,
+    "2020": 1510.6,
+    "2021": 1530.7,
+    "specification": "Wody podziemne (dla eksploatacji sieci wodociągowej)"
+  }
+]
