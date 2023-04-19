@@ -35,7 +35,7 @@ Do uruchomienia projektu będzie potrzebny Docker (https://docs.docker.com/get-d
 
 - Rozpakuj plik .zip
 - Uruchom Docker na swoim komputerze
-- W folderze Projekt powinieneś mieć plik "docker-compose.yml". Uruchom cmd lub git bash w 		lokalizacji z tym plikiem
+- W folderze Projekt powinieneś mieć plik "docker-compose.yml". Uruchom cmd lub git bash w 	lokalizacji z tym plikiem
 - Wprowadź komendę "docker-compose up --build"
 - Poczekaj, aż Docker Compose zakończy budowanie i uruchamianie kontenerów. Gdy zobaczysz, że serwery działają poprawnie, otwórz przeglądarkę internetową i przejdź do "http://localhost:3000
 "
@@ -43,11 +43,15 @@ Do uruchomienia projektu będzie potrzebny Docker (https://docs.docker.com/get-d
 
 - Aby zatrzymać kontenery i usunąć je razem z ich zawartością, woluminami i obrazami możesz użyć polecenia "docker-compose down --rmi all --volumes"
 
+Uwaga!
+
+Może się zdarzyć, że po wykonaniu "docker-compose up --build" skrypt będzie próbował umieścić dane w jeszcze nieistniejącej bazie danych, co doprowadzi do błędu i strona nie otworzy się z zawartością, lecz pusta. W takim przypadku należy zatrzymać działanie aplikacji (np. ctrl + C w terminalu), a następnie wywołać tę komendę jeszcze raz. Po ponownym zbudowaniu aplikacji wszystko powinno działać.
+
 ------------------------
 3) Informacje dodatkowe
 ------------------------
 
-Dołączam krótki filmik, który przedstawia instalację i działanie projektu. W filmie znajduje się wizualna instrukcja dotycząca procesu instalacji oraz prezentację działania poszczególnych części projektu w praktyce.
+Dołączam krótki filmik, który przedstawia instalację i działanie projektu. W filmie znajduje się wizualna instrukcja dotycząca procesu instalacji oraz prezentację działania poszczególnych części projektu w praktyce. Nie umieściłem tam żadnego komentarza głosowego, wszystkie wnioski i analiza danych zostały umieszczone poniżej. 
 
 -----------
 4) Wnioski
