@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./app.js"
+    "wait-for-it": "wait-for-it",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,6 +16,7 @@
     "morgan": "~1.9.1",
     "mysql2": "^3.2.0",
     "pg": "^8.10.0",
-    "sequelize": "^6.31.0"
+    "sequelize": "^6.31.0",
+    "wait-for-it": "^1.0.0"
   }
 }
