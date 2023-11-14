@@ -1,8 +1,6 @@
 -----------------------------------------------------------------------------------------------
 Tytuł projektu: Zestawienie danych dotyczących rozwoju przemysłu i stanu środowiska naturalnego
 -----------------------------------------------------------------------------------------------
-Janik Rafał, IINS 6.1/1, nr indeksu 85719
-Jarosław Jakubaszek, IINS 6.1/1, nr indeksu 96708
 
 ---------------
 Opis projektu:
